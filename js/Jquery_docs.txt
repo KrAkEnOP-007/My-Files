@@ -1,0 +1,1 @@
+$().toggle for if selected item will change its hide or show state

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <!-- <link href="css/style.css" rel="stylesheet"> -->
+    <style>
+      .bgcolor {
+        background-color: black;
+      }
+      .custom:hover{
+        color: yellow;
+        transition: 0.5s;
+      }
+    </style>
+  </head>
+  <body>
+          <nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
+              <div class="container-fluid">
+                  <a class="text-decoration-none custom" href="#">primary</a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
+                      aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarID">
+                      <div class="navbar-nav">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          
+                      </div>
+                  </div>
+              </div>
+          </nav>
+    <!-- <button id="Btn">submit</button> -->
+    <div id="fdiv">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates nam delectus incidunt explicabo perferendis ab minus impedit ipsam culpa. Quam nobis unde blanditiis harum! Cum soluta, voluptatibus velit dolores laudantium a voluptates alias sit beatae ipsum architecto suscipit molestias blanditiis aut veritatis natus? Temporibus fugiat facere rerum error soluta reiciendis, incidunt quidem architecto aut explicabo voluptatum nemo, veniam, accusamus vitae corporis numquam quibusdam nulla deserunt ipsa. Dolores saepe, voluptatem laborum veritatis perspiciatis, nobis assumenda deserunt est temporibus ipsam necessitatibus voluptate doloribus omnis quod incidunt. Voluptates provident magnam nisi facere optio deleniti modi, harum neque. Repellat, laudantium possimus et hic nesciunt aut culpa praesentium ut quam explicabo quos quaerat odio? Consequuntur dolor accusamus ullam odit cumque tempore quod architecto quam placeat pariatur, et commodi! Architecto voluptas, repellat, ratione ab quo necessitatibus, excepturi modi obcaecati deleniti laborum dolore quasi eius dolor odit! Sunt, delectus dolor quibusdam natus numquam ullam sint laudantium ex qui modi ab earum ipsum magni voluptas tempore aliquam, itaque, tempora temporibus reiciendis quae corrupti officia obcaecati placeat optio. Est tempore, accusamus officia neque quasi ipsum, architecto porro, repellendus necessitatibus vero deserunt numquam temporibus assumenda soluta? Provident perspiciatis aliquam debitis consequuntur cumque, sed officia. Harum temporibus odio magnam atque dolores.</p>
+    </div>
+
+  </body>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/MyJquery.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('#Btn').mouseenter(function () {
+          $("body").addClass("bgcolor");
+        });
+        $('#Btn').mouseleave(function () {
+          $("body").removeClass("bgcolor");
+        });
+      });
+      
+    </script>
+</html>
